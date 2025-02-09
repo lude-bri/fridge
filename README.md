@@ -7,6 +7,7 @@ App to help people organize their food inventory
 * [References](#references)
   * [Docs](#docs)
   * [Tools](#tools)
+  * [Recipe APIs](#recipe-apis)
 
 <!-- mtoc-end -->
 ___
@@ -37,4 +38,12 @@ ___
 
 - [Posting.sh](https://posting.sh/)
 > To keep track of HTTP requests (I think we gonna need it!)
+
+___
+
+## Recipe APIs
+
+- [Recipe APIs (rapidapi.com)](https://rapidapi.com/blog/recipe-apis/)
+- [Edamam.com](https://developer.edamam.com/edamam-recipe-api)
+- [TheMealDB](https://www.themealdb.com/api.php)
 
