@@ -47,11 +47,14 @@ run: build  # Run project
 
 ##@ Debug Rules 
 
-serve: build  # Serve Textual project as a web app
+posting:	## Get Postings
+	posting --collection fridge_postings
+
+serve: build  ## Serve Textual project as a web app
 	@echo "*** $(_INFO) $(YEL)Preparing to serve $(MAG)$(NAME)$(D):"
 	textual serve $(APP)
 
-console: build  # Serve Textual project as a console app
+console: build  ## Serve Textual project as a console app
 	@echo "* $(YEL)Preparing execute w/ console $(MAG)$(NAME)$(D):"
 	tmux split-window -v "source .venv/bin/activate && textual console" 
 	tmux resize-pane -U 30
