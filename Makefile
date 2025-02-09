@@ -71,6 +71,7 @@ clean: 				## Remove object files
 			$(RM) "db/"; \
 			$(RM) ".temp/"; \
 			$(RM) "$(NAME).egg-info/"; \
+			$(RM) "*_cache.sqlite"; \
 			echo "*** $(YEL)Removing $(CYA)$(BUILD_PATH)$(D) folder & files$(D): $(_SUCCESS)"; \
 		fi; \
 	else \

@@ -16,6 +16,7 @@ setup(
     "setuptools",
     "textual-dev",
     "requests",
+    "requests_cache",
   ],
   extras_require={
     "dev": ["debugpy", "ruff"],
